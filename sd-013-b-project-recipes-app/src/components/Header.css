@@ -1,0 +1,23 @@
+@media screen and ( max-width : 360px ) and ( max-height : 640px ) {
+
+  .header-home-page {
+    align-items : center;
+    background-color: rgba(255, 123, 0);
+    display: flex;
+    font-family: Lobster , cursive;
+    font-size: x-large;
+    height: 10vh;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .explore-button {
+    background-color: transparent;
+    border: none transparent 0;
+    color: transparent;
+  }
+
+  .icons {
+    margin: 0 10px;
+  }
+}

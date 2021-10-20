@@ -1,0 +1,16 @@
+@media screen and ( max-width : 360px ) and ( max-height : 640px ) {
+
+  .header-explore-home-page {
+    align-items: center;
+    background-color: #f2392c;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .explore-button {
+    background-color: transparent;
+    border: none transparent 0;
+    color: transparent;
+  }
+}

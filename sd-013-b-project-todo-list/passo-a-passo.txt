@@ -1,0 +1,52 @@
+# como eu fiz o desafio 5
+
+criar um elemento li
+
+colocar esse elemento como filho da ol 
+
+o innerText do elemento li precisa ser
+a mesma coisa do que foi colocado no 
+input
+
+colocar no botao um evento que espera
+o click busca na funçao o li criado
+
+para resetar o input é preciso 
+colocar .reset()
+
+# como eu fiz o desafio 7
+
+1- criei uma funçao que remove em todos
+os elementos no array da classe .tarefa
+a classe 'selected'
+Depois disso ela adiciona a classe selected
+se ocorrer um evento
+
+2- criei uma funcao que adiciona o addEventListener
+no elemento pai das Li, AS LO.
+As li herdam a classe do pai, portanto
+todas as li possuem o eventListener.
+Quando elas recebem o 'click', ela chama
+a funcao de criar a classe.
+
+3- As propriedades da classe esta no classe
+
+# como eu fiz o desafio 9
+
+primeiramente precisa criar um eventlistener de dobleclick
+com a funçao de colocar a class 
+a funcao confere se existe a classe
+se ja existe, a função retira a classe
+se não existe, a função adiciona a classe
+
+# como eu fiz o desafio 10
+
+seleciona todos os filhos do OL ( as li's);
+passa um loop do ultimo elemento ate o primeiro. 
+em todos os indices ele remove o filho da OL.
+
+#como eu fiz o desafio 11 
+criei uma função que seleciona todos os elementos da classe completed
+coloquei um for para percorrer em todos os elementos do array
+coloquei para percorrer do ultimo elemento ate o primeiro
+toda vez q passa em um indice ele remove a div

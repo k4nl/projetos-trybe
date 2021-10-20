@@ -1,0 +1,11 @@
+.body-list-recipes {
+  align-items: center;
+  background: url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: 150vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  margin-bottom: 7.5vh;
+  overflow-y: auto;
+}

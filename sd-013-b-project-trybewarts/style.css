@@ -1,0 +1,162 @@
+@font-face {
+  font-family: trybewarts;
+  src: url('HARRYP__.TTF');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding: 5px 20px;
+  max-width: 250px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-family: trybewarts, sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 30px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.entrar {
+  height: 23px;
+  border-radius: 5px;
+  margin: 4px;
+  border: 1px solid rgb(206, 212, 218);
+}
+
+.button {
+  background-color: rgb(123, 44, 191);
+  color: white;
+  margin-top: 5px;
+  height: 24px;
+  width: 65px;
+  margin-right: 30px;
+  border-radius: 3px;
+  border: none;
+}
+
+#principal {
+  display: flex;
+}
+
+#forms {
+  text-align: center;
+  margin-bottom: 15px;
+  color: black;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#input-name {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid rgb(206, 212, 218);
+}
+
+#input-lastname {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid rgb(206, 212, 218);
+}
+
+#input-email {
+  width: 300px;
+  border: 1px solid rgb(206, 212, 218);
+}
+
+.casa {
+  color: black;
+}
+
+#house {
+  border: none;
+  width: 178px;
+  height: 24px;
+  color: white;
+  border-radius: 4px;
+  background-color: rgb(50, 167, 145);
+}
+
+.family {
+  margin: 7px;
+}
+
+.radios {
+  margin: 3px;
+}
+
+.content {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.subject {
+  margin: 4px;
+}
+
+.avaliation {
+  margin: 7px;
+}
+
+.text {
+  margin: 7px;
+}
+
+#rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: rgb(108, 117, 125);
+}
+
+.texto {
+  position: relative;
+  width: min-content;
+}
+
+.texto textarea {
+  max-height: 150px;
+  max-width: 350px;
+}
+
+#counter {
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+  color: grey;
+}
+
+.audio {
+  margin-left: 120px;
+}

@@ -1,0 +1,11 @@
+Desafio 3
+linha 10
+- recupera onde a foto deve fazer upload
+linha 11
+- a imagemURL recupera a url da imagem criada no addEventListener
+linha 12
+- o valor do src na div memeOutPut se transforma no url recuperado, reproduzindo a imagem
+linha 15
+pegando o arquivo do input
+linha 16
+criando uma url a partir do arquivo
